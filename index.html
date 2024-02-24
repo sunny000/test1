@@ -4,11 +4,6 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>test</title>
-	<script>
-	const currentDateAndTime = new Date();
-	console.log(currentDateAndTime);
-	document.getElementById('ts').innerHTML=currentDateAndTime;
-	</script>
 	<style>
 	.page {width:33%;margin:auto;border:1px solid blue;padding:15px;}
 	</style>
@@ -20,7 +15,13 @@
 	<p>repo name:test1</p>
 	<p>deployed to Netlify</p>
 	<p>Netlify site url: https://primebiztest1.netlify.app/</p>
-</div>
 <div id='ts'></div>
+<script>
+	const currentDateAndTime = new Date();
+	console.log(currentDateAndTime);
+	document.getElementById('ts').innerHTML=currentDateAndTime;
+	</script>
+</div>
+
 </body>	
 </html>
